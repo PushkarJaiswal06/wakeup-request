@@ -1,0 +1,30 @@
+{
+  "name": "wakeup",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Production-grade GitHub Actions keep-alive system for Hugging Face Spaces",
+  "scripts": {
+    "start": "node src/wake.js",
+    "wake": "node src/wake.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PushkarJaiswal06/wakeup-request.git"
+  },
+  "keywords": [
+    "keepalive",
+    "huggingface",
+    "github-actions",
+    "cron",
+    "wake"
+  ],
+  "author": "PushkarJaiswal06",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PushkarJaiswal06/wakeup-request/issues"
+  },
+  "homepage": "https://github.com/PushkarJaiswal06/wakeup-request#readme",
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}

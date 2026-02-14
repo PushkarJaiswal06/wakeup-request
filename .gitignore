@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+
+# Runtime
+*.log
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Coverage
+coverage/
+
+# Build
+dist/
+build/
