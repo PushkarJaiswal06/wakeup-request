@@ -12,7 +12,7 @@
  * Add more URLs here to scale horizontally without code changes.
  */
 export const TARGET_URLS = [
-  'https://shadowguy007-sataseyu-ai-verification.hf.space/docs',
+  'https://curry-on-backend.onrender.com/health',
 ];
 
 /**
