@@ -16,6 +16,15 @@ on:
   schedule:
     # Run every 1 hour at minute 0 (UTC)
     - cron: '0 * * * *'
+    - cron: '15 6 * * *'    # ~06:15 UTC — Early morning
+    - cron: '15 11 * * *'    # ~09:15 UTC — morning    
+    - cron: '42 12 * * *'   # ~11:42 UTC — Midday
+    - cron: '8 17 * * *'    # ~17:08 UTC — Afternoon- cron: '15 6 * * *'    # ~06:15 UTC — Early morning
+    - cron: '15 9 * * *'    # ~09:15 UTC — morning    
+    - cron: '42 13 * * *'   # ~11:42 UTC — Midday
+    - cron: '7 16 * * *'    # ~17:08 UTC — Afternoon
+    - cron: '37 21 * * *'   # ~22:37 UTC — Late night
+    - cron: '37 20 * * *'   # ~22:37 UTC — Late night
 
   # Allow manual trigger from GitHub Actions UI
   workflow_dispatch:
